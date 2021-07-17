@@ -3,11 +3,11 @@
   become: true
 
   vars:
-    gitlab_domain: "gitlab.jonashackt.io"
+    gitlab_domain: "gitlab.kartpay.me"
     gitlab_url: "https://{{ gitlab_domain }}"
     gitlab_registry_url: "{{ gitlab_url }}:4567"
     gitlab_runner_count: 2
-    gitlab_pages_domain: "pages.jonashackt.io"
+    gitlab_pages_domain: "pages.kartpay.me"
     gitlab_pages_url: "https://{{ gitlab_pages_domain }}"
 
 

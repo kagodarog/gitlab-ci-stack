@@ -1,2 +1,4 @@
-[gitlab-ci-stack]
-172.16.2.15
+#[gitlab-ci-stack]
+#172.16.2.15
+[mygitlabciserver]
+54.251.75.251
